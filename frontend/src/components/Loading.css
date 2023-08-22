@@ -1,0 +1,44 @@
+.custom-loader {
+  width: 100px;
+  height: 100px;
+  display: grid;
+  border: 8px solid #0000;
+  border-radius: 50%;
+  border-color: #e4e4ed #0000;
+  animation: s6 1s infinite linear;
+}
+.custom-loader::before,
+.custom-loader::after {
+  content: "";
+  grid-area: 1/1;
+  margin: 4px;
+  border: inherit;
+  border-radius: 50%;
+}
+.custom-loader::before {
+  border-color: #766df4 #0000;
+  animation: inherit;
+  animation-duration: 0.5s;
+  animation-direction: reverse;
+}
+.custom-loader::after {
+  margin: 16px;
+}
+
+@keyframes s6 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+.container-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Set container's height to fill the viewport (optional) */
+  height: 100vh;
+}
+
+.centered-content {
+  /* Add any necessary styles to the centered content */
+}

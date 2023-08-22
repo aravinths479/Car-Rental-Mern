@@ -1,0 +1,15 @@
+.car-details {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.1);
+}
+
+.car-image {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.btn-book {
+  font-weight: bold;
+}

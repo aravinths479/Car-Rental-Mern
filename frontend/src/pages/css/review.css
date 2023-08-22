@@ -1,0 +1,22 @@
+
+.reviews-section {
+    margin-top: 40px;
+  }
+  
+  .review-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reviewer-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .review-date {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
