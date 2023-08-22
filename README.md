@@ -26,8 +26,3 @@ This project is a web-based vehicle rental platform with a React frontend and a 
 - To access the frontend, open your browser and go to `http://localhost:3000`.
 - To access the backend admin panel, open your browser and go to `http://localhost:4001`.
 
-## Contributions
-Contributions are welcome. Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
