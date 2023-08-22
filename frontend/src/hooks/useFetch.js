@@ -8,7 +8,7 @@ const useFetch = (url, token) => {
   useEffect(() => {
     const fetchMyBooking = async () => {
       try {
-        const response = await fetch(`http://127.0.0.1:4000/${url}`, {
+        const response = await fetch(`https://car-rental-mern.onrender.com/${url}`, {
           headers: {
             "Content-Type": "application/json",
             Authorization: `Bearer ${token}`,

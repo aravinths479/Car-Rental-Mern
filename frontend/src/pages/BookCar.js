@@ -95,7 +95,7 @@ const BookCar = () => {
 
     try {
       // Send the booking request to the server
-      const response = await fetch("http://127.0.0.1:4000/api/book/booking", {
+      const response = await fetch("https://car-rental-mern.onrender.com/api/book/booking", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

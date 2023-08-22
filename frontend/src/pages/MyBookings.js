@@ -14,7 +14,7 @@ const MyBookings = () => {
     const fetchMyBooking = async () => {
       try {
         const response = await fetch(
-          "http://127.0.0.1:4000/api/book/mybooking",
+          "https://car-rental-mern.onrender.com/api/book/mybooking",
           {
             headers: {
               "Content-Type": "application/json",

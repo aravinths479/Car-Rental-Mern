@@ -16,7 +16,7 @@ const Profile = () => {
     const fetchProfileData = async () => {
       try {
         const response = await fetch(
-          "http://127.0.0.1:4000/api/user/getUserUpdate",
+          "https://car-rental-mern.onrender.com/api/user/getUserUpdate",
           {
             headers: { Authorization: `Bearer ${user.token}` },
           }
