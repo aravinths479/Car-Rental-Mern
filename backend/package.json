@@ -11,9 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@admin-bro/express": "^3.1.0",
-    "admin-bro": "^4.0.1",
-    "admin-bro-mongoose": "^0.5.2",
     "aws-sdk": "^2.1433.0",
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
