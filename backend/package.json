@@ -27,6 +27,7 @@
     "multer-s3": "^3.0.1",
     "nodemailer": "^6.9.4",
     "tslib": "^2.6.0",
-    "validator": "^13.7.0"
+    "validator": "^13.7.0",
+    "express-session":"^1.17.3"
   }
 }
