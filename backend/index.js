@@ -12,7 +12,7 @@ const bookingRoutes = require("./routes/booking")
 const reviewRoutes = require('./routes/review')
 
 
-require("./AdminManagement/admin")
+
 
 // express app
 const app = express();
