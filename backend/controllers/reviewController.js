@@ -34,8 +34,8 @@ exports.getCarReviews = async (req, res) => {
   const car_id = req.params.carId;
 
   try {
-    const reviews = await Review.find({ car_id },{user_id:req.user._id}); // Populate user_id with only the username
-
+    // Find reviews for a specific car using car_id
+    const reviews = await Review.find({ car_id }).populate('user_id', 'username');
     res.status(200).json(reviews);
   } catch (error) {
     console.error(error);
