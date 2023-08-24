@@ -69,12 +69,15 @@ const SingleCar = () => {
               </p>
             </div>
           </div>
+
+        
+
         </div>
       )}
 
       
       
-      <ReviewCard/>
+      <ReviewCard carId={id} />
 
       
     </div>

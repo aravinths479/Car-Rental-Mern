@@ -88,24 +88,26 @@ const BookingInfo = () => {
       <div className="col-md-12">
         {/* Booking Details */}
         <table className="table table-bordered">
-          <tbody>
+  <tbody>
+    <tr>
+      <th>Start Date</th>
+      <td>{formatDate(bookingInfo.start_date)}</td>
+    </tr>
+    <tr>
+      <th>End Date</th>
+      <td>{formatDate(bookingInfo.end_date)}</td> {/* Use end_date here */}
+    </tr>
+    <tr>
+      <th>Total Cost</th>
+      <td>{bookingInfo.total_cost}</td>
+    </tr>
+  </tbody>
+</table>
 
-            <tr>
-              <th>Start Date</th>
-              <td>{formatDate(bookingInfo.start_date)} </td>
-            </tr>
-            <tr>
-              <th>End Date</th>
-              <td>{formatDate(bookingInfo.start_date)}</td>
-            </tr>
-            <tr>
-              <th>Total Cost</th>
-              <td>{bookingInfo.total_cost}</td>
-            </tr>
-          </tbody>
-        </table>
       </div>
     </div>
+
+    
   </div>
   );
 };
